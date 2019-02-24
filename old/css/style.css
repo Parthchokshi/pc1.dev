@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Futura", sans-serif;
+  font-weight: 500;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-image: -webkit-radial-gradient(
+    40% 41%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(51, 51, 51, 0.5) 160%
+  );background-image: -o-radial-gradient(
+    40% 41%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(51, 51, 51, 0.5) 160%
+  );background-image: radial-gradient(
+    40% 41%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(51, 51, 51, 0.5) 160%
+  );
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/FuturaStd-Medium.otf");
+}
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("../fonts/FuturaStd-Bold.otf");
+}
+@font-face {
+  font-family: "Futura-XBold";
+  src: url("../fonts/FuturaStd-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Futura-Light";
+  src: url("../fonts/FuturaStd-Light.otf");
+}
+
+.intro {
+  padding-top: 50px;
+}
+.intro .intro-heading-container {
+  position: relative;
+  font-family: "Futura-Light";
+}
+.intro .intro-subheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: inline-block;
+  margin: 0.5rem 0 0.5rem -0.6rem;
+}
+.intro .intro-heading {
+  font-size: 4rem;
+  font-family: "Futura-Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.work-avatar {
+  background-image: url("../images/avatar.png");
+  width: 175px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.work-web {
+  /* position: absolute; */
+}
+.work-pipe-web {
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #e64545;
+  border-radius: 0.5rem;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  margin: 0 0 7rem 6rem;
+}
+.work-web-title {
+  margin-left: 2rem;
+}
+
+.work-mobile-design-container {
+  display: inline-block;
+}
+.work-mobile {
+  display: inline-block;
+  padding: 0 100px;
+}
+.work-pipe-mobile {
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #e64545;
+  border-radius: 0.5rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  margin: 0 0 0 3.5rem;
+}
+.work-mobile-title {
+  margin-left: -2rem;
+}
+
+.work-design {
+  display: inline-block;
+  padding: 0 80px;
+}
+.work-pipe-design {
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #e64545;
+  border-radius: 0.5rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+  margin: 0 0 0 -0.3rem;
+}
+.work-design-title {
+  margin-left: 3rem;
+}
+
+.navigation {
+  padding-top: 4rem;
+}
+
+.navigation-connect {
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #242425;
+  padding: 1rem;
+  -webkit-transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navigation-connect:hover,
+.navigation-connect:focus {
+  -webkit-box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+.navigation-connect:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
