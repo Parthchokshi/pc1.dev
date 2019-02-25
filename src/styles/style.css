@@ -224,11 +224,10 @@ body {
   }
   .mobile-skills > ul li span {
     color: #e64545;
-    font-size: 48px;
+    font-size: 30px;
     display: inline-block;
-    width: 30px;
     position: relative;
-    top: 22px;
+    top: 10px;
   }
   .intro {
     display: flex;

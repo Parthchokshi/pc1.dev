@@ -34,9 +34,9 @@ const IndexPage = () => (
 
       <div className="mobile-skills">
         <ul>
-          <li><span>*</span>Full Stack Developer</li>
-          <li><span>*</span>Mobile Apps Developer</li>
-          <li><span>*</span>UI &amp; UX Designer</li>
+          <li><span>*</span>&nbsp;&nbsp;Full Stack Developer</li>
+          <li><span>*</span>&nbsp;&nbsp;Mobile Apps Developer</li>
+          <li><span>*</span>&nbsp;&nbsp;UI &amp; UX Designer</li>
         </ul>
       </div>
 
