@@ -27,9 +27,17 @@ const IndexPage = () => (
           </div>
           <div className="work-design">
             <div className="work-pipe-design" />
-            <p className="work-design-title">UI & UX Designer</p>
+            <p className="work-design-title">UI &amp; UX Designer</p>
           </div>
         </div>
+      </div>
+
+      <div className="mobile-skills">
+        <ul>
+          <li><span>*</span>Full Stack Developer</li>
+          <li><span>*</span>Mobile Apps Developer</li>
+          <li><span>*</span>UI &amp; UX Designer</li>
+        </ul>
       </div>
 
       <div className="navigation">
