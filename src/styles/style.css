@@ -181,7 +181,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #242425;
-  padding: 1rem 1rem 0;
+  padding: 1rem;
   -webkit-transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
