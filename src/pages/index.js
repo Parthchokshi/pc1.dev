@@ -41,7 +41,7 @@ const IndexPage = () => (
       </div>
 
       <div className="navigation">
-        <a className="navigation-connect" href="mailto:parth@bles.co">
+        <a className="navigation-connect" href="mailto:parthchokshi1@gmail.com">
           Connect
         </a>
       </div>
