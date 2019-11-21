@@ -27,7 +27,7 @@ const IndexPage = () => (
           </div>
           <div className="work-design">
             <div className="work-pipe-design" />
-            <p className="work-design-title">UI &amp; UX Designer</p>
+            <p className="work-design-title">UI Designer</p>
           </div>
         </div>
       </div>
