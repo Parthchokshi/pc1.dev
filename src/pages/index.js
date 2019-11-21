@@ -36,7 +36,7 @@ const IndexPage = () => (
         <ul>
           <li><span>*</span>&nbsp;&nbsp;Full Stack Developer</li>
           <li><span>*</span>&nbsp;&nbsp;Mobile Apps Developer</li>
-          <li><span>*</span>&nbsp;&nbsp;UI &amp; UX Designer</li>
+          <li><span>*</span>&nbsp;&nbsp;UI Designer</li>
         </ul>
       </div>
 
