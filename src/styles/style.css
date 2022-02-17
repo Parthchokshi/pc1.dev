@@ -129,6 +129,7 @@ body {
 
 .work-mobile-design-container {
   display: inline-block;
+  margin-left: -28px;
 }
 .work-mobile {
   display: inline-block;
